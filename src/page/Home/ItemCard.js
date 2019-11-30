@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import defaultImage from "../../images/product.jpg";
 
 const CardCover = styled.div`
   position: absolute;
@@ -99,6 +100,9 @@ const CardContainer = styled.div`
   overflow: hidden;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #fffba8;
+  background-image: url(${props => props.image});
+  background-size: contain;
+
   &:hover {
     ${CardCover} {
       background: gray;
@@ -113,7 +117,7 @@ const CardContainer = styled.div`
 //아이템 정보 최대글자 14 그 이후 ...처리
 function ItemCard() {
   return (
-    <CardContainer>
+    <CardContainer image={defaultImage}>
       <CardCover />
       <CardModalTemplate>
         <ItemContent>

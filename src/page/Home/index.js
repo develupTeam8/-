@@ -1,13 +1,19 @@
 import React from "react";
 import ItemCardList from "./ItemCardList";
-import BaseLayout from "../../components/Layout/BaseLayout";
+import TagContainer from "./TagContainer";
+import HomeLayout from "../../components/Layout/HomeLayout";
+import NavBar from "../../components/NavBar";
+import HomeHeader from "./HomeHeader";
 
 function Home() {
   return (
     <div>
-      <BaseLayout>
+      <NavBar />
+      <HomeHeader />
+      <TagContainer />
+      <HomeLayout>
         <ItemCardList />
-      </BaseLayout>
+      </HomeLayout>
     </div>
   );
 }
