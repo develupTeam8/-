@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import GlobalStyles from "./components/GlobalStyles.js";
 import Home from "./page/Home";
 import Login from "./page/Login";
-
+import GlobalStyles from "./components/GlobalStyles.js";
 function App() {
   return (
     <BrowserRouter>
