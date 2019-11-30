@@ -11,5 +11,6 @@ function App() {
       <Route path="/login" component={Login} />
     </BrowserRouter>
   );
+}
 
 export default App;

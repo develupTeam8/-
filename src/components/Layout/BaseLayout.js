@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Body = styled.div`
-  width: 1520px;
+  width: 1050px;
   margin: 0 auto;
 `;
 
