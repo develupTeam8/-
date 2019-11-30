@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import ItemCard from "./ItemCard";
+import MoreItemCard from "./MoreItemCard";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -43,6 +44,11 @@ function ItemCardList({ items }) {
         <ItemCard />
         <ItemCard />
         <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <MoreItemCard />
       </Container>
     </Wrapper>
   );

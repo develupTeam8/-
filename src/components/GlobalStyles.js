@@ -8,11 +8,13 @@ const globalStyles = createGlobalStyle`
     }
     html, body {
         width: 100%;
+
         background: #F0F0F0;
     }
     section {
         width: 1280px;
         margin: 0 auto;
+
     }
     a {
         color: inherit;
