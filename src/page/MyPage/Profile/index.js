@@ -61,9 +61,9 @@ function Profile() {
 				<ProfileText>
 					<ProfileName>
 						{isToggledOn ? (
-							"박소현"
-						) : (
 							<input defaultValue="박소현" />
+						) : (
+							"박소현"
 						)}
 					</ProfileName>
 					<WrapButton>

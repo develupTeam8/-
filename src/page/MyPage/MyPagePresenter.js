@@ -7,6 +7,7 @@ import MyWriting from "./MyWriting";
 const Container = styled.div`
 	position: relative;
 	margin: 50px 0;
+	min-height: calc(100vh - 366px);
 `;
 
 const MyPagePresenter = () => (

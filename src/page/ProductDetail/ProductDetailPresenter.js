@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BaseLayout from "../../components/Layout/BaseLayout";
 import PhotoSlideContainer from "./PhotoSlide";
-import WriterProfile from "./WriterProfile";
+import DetailText from "./DetailText";
 import Comment from "./Comment";
 
 const Container = styled.div`
@@ -25,7 +25,7 @@ const ProductDetailPresenter = () => (
 		<BG />
 		<Container>
 			<PhotoSlideContainer />
-			<WriterProfile />
+			<DetailText />
 		</Container>
 		<Comment />
 	</BaseLayout>

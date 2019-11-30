@@ -67,7 +67,7 @@ const WrapTag = styled.div`
 
 const detail = {
 	title: "고양이 사료 팝니다.",
-	writer: "박소현",
+	writer: "보리",
 	describes: "고양이가 사료를 안먹어서 팔아요…",
 	price: 8000,
 	tag: ["고양이", "사료"]

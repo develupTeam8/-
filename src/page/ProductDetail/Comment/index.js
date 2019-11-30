@@ -63,14 +63,14 @@ const WrapCommentInput = styled.div`
 const commentArr = [
 	{
 		img: "",
-		name: "soromi1",
+		name: "주먹밥",
 		massage: "유통기한 좀 알려주세요~",
 		time: "11:10"
 	},
 	{
 		img: "",
-		name: "soromi2",
-		massage: "유통기한 좀 알려주세요~",
+		name: "냥냥2",
+		massage: "팔렸나요?",
 		time: "11:11"
 	}
 ];
@@ -99,7 +99,7 @@ export default class extends React.Component {
 							<CommnetBox key={i}>
 								<WrapProfile>
 									<ProfileImg />
-									<span>{val.name}</span>
+									<span>{val.name}님</span>
 									<CommentTime>{val.time}</CommentTime>
 								</WrapProfile>
 								<span>{val.massage}</span>
