@@ -8,8 +8,11 @@ const globalStyles = createGlobalStyle`
     }
     html, body {
         width: 100%;
-        height: 100%;
-        overflow: hidden;
+        background: #F0F0F0;
+    }
+    section {
+        width: 1280px;
+        margin: 0 auto;
     }
     a {
         color: inherit;
@@ -30,6 +33,11 @@ const globalStyles = createGlobalStyle`
             border: 0;
             padding: 0;
         }
+    }
+    input{ 
+        &:focus {
+            outline: none;
+        } 
     }
 `;
 
