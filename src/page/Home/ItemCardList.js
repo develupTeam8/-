@@ -3,21 +3,48 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import ItemCard from "./ItemCard";
 
+const Wrapper = styled.div`
+  width: 100%;
+  padding: 80px 0 80px;
+`;
+const Title = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+
+    color: #534d4d;
+  }
+`;
+
 const Container = styled.div`
-  width: 560px;
+  margin-top: 40px;
+  width: 100%;
   display: grid;
-  grid-template-rows: repeat(2, 150px);
-  grid-template-columns: repeat(4, 130px);
-  grid-gap: 10px;
+  grid-template-rows: repeat(2, 240px);
+  grid-template-columns: repeat(4, 240px);
+  grid-gap: 30px;
 `;
 
 function ItemCardList({ items }) {
   return (
-    <Container>
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
-    </Container>
+    <Wrapper>
+      <Title>
+        <span>최근 상품</span>
+      </Title>
+      <Container>
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+      </Container>
+    </Wrapper>
   );
 }
 

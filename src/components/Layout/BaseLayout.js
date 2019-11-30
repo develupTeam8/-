@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import NavBar from "../NavBar";
 
 const Body = styled.div`
   width: 1050px;
@@ -8,7 +9,12 @@ const Body = styled.div`
 
 function BaseLayout(props) {
   const { children } = props;
-  return <Body>{children}</Body>;
+  return (
+    <>
+      <NavBar />
+      <Body>{children}</Body>
+    </>
+  );
 }
 
 export default BaseLayout;
