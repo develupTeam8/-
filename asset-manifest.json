@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/junggonyangi-/static/css/main.21f9156f.chunk.css",
+    "main.js": "/junggonyangi-/static/js/main.92d4d7d5.chunk.js",
+    "main.js.map": "/junggonyangi-/static/js/main.92d4d7d5.chunk.js.map",
+    "runtime-main.js": "/junggonyangi-/static/js/runtime-main.68d95038.js",
+    "runtime-main.js.map": "/junggonyangi-/static/js/runtime-main.68d95038.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/junggonyangi-/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.1ab19e0b.chunk.js": "/junggonyangi-/static/js/2.1ab19e0b.chunk.js",
+    "static/js/2.1ab19e0b.chunk.js.map": "/junggonyangi-/static/js/2.1ab19e0b.chunk.js.map",
+    "index.html": "/junggonyangi-/index.html",
+    "precache-manifest.09b8916558be25f9f589aded1f8fbc10.js": "/junggonyangi-/precache-manifest.09b8916558be25f9f589aded1f8fbc10.js",
+    "service-worker.js": "/junggonyangi-/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/junggonyangi-/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.21f9156f.chunk.css.map": "/junggonyangi-/static/css/main.21f9156f.chunk.css.map",
+    "static/media/main.jpg": "/junggonyangi-/static/media/main.bffda1d8.jpg",
+    "static/media/product.jpg": "/junggonyangi-/static/media/product.241d5992.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68d95038.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.1ab19e0b.chunk.js",
+    "static/css/main.21f9156f.chunk.css",
+    "static/js/main.92d4d7d5.chunk.js"
+  ]
+}
