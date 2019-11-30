@@ -4,12 +4,10 @@ import { Link, withRouter } from "react-router-dom";
 import logo from "../../images/XMLID_312__2019-11-30/XMLID_312_.png";
 
 const NavBarCotainer = styled.header`
-
 	width: 100%;
 	height: 66px;
 	background-color: #fde827;
 	opacity: 0.9;
-
 `;
 const NavBarItemContainer = styled.div`
 	position: relative;
@@ -71,41 +69,43 @@ const LoginLogOut = styled.div`
 `;
 
 const MyPageItem = styled.div`
-  position: absolute;
-  cursor: pointer;
-  right: 65px;
-  span {
-    font-family: Lato, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.39;
-    letter-spacing: normal;
+	position: absolute;
+	cursor: pointer;
+	right: 65px;
+	span {
+		font-family: Lato, sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.39;
+		letter-spacing: normal;
 
-    color: #339af0;
-  }
+		color: #339af0;
+	}
 `;
 
 function NavBar() {
-
-  return (
-    <NavBarCotainer>
-      <NavBarItemContainer>
-        <LogoItem logo={logo} />
-        <Tilte>
-          <span>중고양이</span>
-        </Tilte>
-        <MyPageItem>
-          <span>마이페이지</span>
-        </MyPageItem>
-        <LoginLogOut>
-          <span>로그아웃</span>
-        </LoginLogOut>
-      </NavBarItemContainer>
-    </NavBarCotainer>
-  );
-
+	return (
+		<NavBarCotainer>
+			<NavBarItemContainer>
+				<ALink to="/">
+					<LogoItem logo={logo} />
+					<Tilte>
+						<span>중고양이</span>
+					</Tilte>
+				</ALink>
+				<ALink to="/MyPage">
+					<MyPageItem>
+						<span>마이페이지</span>
+					</MyPageItem>
+				</ALink>
+				<LoginLogOut>
+					<span>로그아웃</span>
+				</LoginLogOut>
+			</NavBarItemContainer>
+		</NavBarCotainer>
+	);
 }
 
 export default NavBar;

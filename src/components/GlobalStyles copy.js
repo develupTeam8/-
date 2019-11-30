@@ -10,6 +10,10 @@ const globalStyles = createGlobalStyle`
     html, body {
         width: 100%;
     }
+    section {
+        width: 1280px;
+        margin: 0 auto;
+    }
     a {
         color: inherit;
         text-decoration: none;

@@ -10,8 +10,19 @@ const Container = styled.div`
 	margin-top: 50px;
 `;
 
+const BG = styled.div`
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #f0f0f0;
+	z-index: -1;
+`;
+
 const ProductDetailPresenter = () => (
 	<BaseLayout>
+		<BG />
 		<Container>
 			<PhotoSlideContainer />
 			<WriterProfile />
