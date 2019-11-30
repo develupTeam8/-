@@ -32,7 +32,8 @@ const ProfileImg = styled.div`
 	height: 40px;
 	margin-right: 10px;
 	border-radius: 50%;
-	background: #999;
+	background: url("https://www.gannett-cdn.com/presto/2019/11/14/PSAL/b23f78ae-5321-40ec-aa25-dfce9e639ddd-Liberty.jpg?crop=3263,2447,x0,y0&width=640");
+	background-size: cover;
 `;
 
 const WrapText = styled.div`

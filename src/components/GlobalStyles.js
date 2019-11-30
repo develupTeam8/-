@@ -12,7 +12,7 @@ const globalStyles = createGlobalStyle`
     }
     a {
         color: inherit;
-        text-decoration: none;
+        text-decoration: none !important;
     }
     button {
         border: none;
@@ -23,7 +23,7 @@ const globalStyles = createGlobalStyle`
         background: transparent;
         color: inherit;
         text-align: inherit;
-        outline: none;
+        outline: none !important;
         cursor: pointer;
         &::-moz-focus-inner {
             border: 0;

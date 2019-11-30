@@ -15,7 +15,9 @@ const WrapSlider = styled(Carousel)`
 		}
 	}
 	li {
+		height: initial !important;
 		top: auto !important;
+		min-height: 525px;
 	}
 	img {
 		width: 100%;
@@ -24,8 +26,8 @@ const WrapSlider = styled(Carousel)`
 `;
 
 const imgArr = [
-	"https://scontent-lga3-1.cdninstagram.com/vp/ad273e97a942d6d95aeaf67d3fd484ff/5E4FABAF/t51.2885-15/sh0.08/e35/s640x640/71849132_1624267144406805_3613919444984849770_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109",
-	"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2XdfPck_eeUCxae2F-Arb0cUjKK_I-rxm7fyItONz4Tnw5xMd&s"
+	"https://www.nutripet.co.kr/files/attach/images/475/247/001/c108e7ec1e685972b20693c255a2b850.jpg",
+	"http://gdimg.gmarket.co.kr/1625032945/still/600?ver=1566975217"
 ];
 
 const PhotoSlider = () => (

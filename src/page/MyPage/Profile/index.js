@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const WrapProfile = styled.div`
 	display: flex;
@@ -13,6 +14,8 @@ const ProfileImg = styled.div`
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
+	background: url("https://www.gannett-cdn.com/presto/2019/11/14/PSAL/b23f78ae-5321-40ec-aa25-dfce9e639ddd-Liberty.jpg?crop=3263,2447,x0,y0&width=640");
+	background-size: cover;
 `;
 const ProfileText = styled.div`
 	margin-left: 100px;
@@ -60,11 +63,7 @@ function Profile() {
 				<ProfileImg />
 				<ProfileText>
 					<ProfileName>
-						{isToggledOn ? (
-							<input defaultValue="박소현" />
-						) : (
-							"박소현"
-						)}
+						{isToggledOn ? <input defaultValue="보리" /> : "보리"}
 					</ProfileName>
 					<WrapButton>
 						<button onClick={toggle}>
@@ -72,7 +71,9 @@ function Profile() {
 								? "프로필 저장하기"
 								: "프로필 수정하기"}
 						</button>
-						<button>글 등록하기</button>
+						<Link to="/form">
+							<button>글 등록하기</button>
+						</Link>
 					</WrapButton>
 				</ProfileText>
 			</WrapProfile>
