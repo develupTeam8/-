@@ -8,7 +8,7 @@
 		"gh-pages": "^2.1.1",
 		"bootstrap": "^4.4.1",
 		"infinite-react-carousel": "^1.2.1",
-		"moment": "^2.24.0",
+		"moment": "^2.29.4",
 		"nuka-carousel": "^4.5.13",
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
